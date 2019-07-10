@@ -1,0 +1,98 @@
+.header {
+    min-height: 70px;
+    position: relative
+}
+.page {
+    overflow-x: hidden
+    background: #f9f9f9
+}
+.logo {
+    margin-top: 25px;
+}
+.menu{
+	margin-top: -10px;
+
+}
+.icon-design{
+	font-size: 50px!important;	 
+}
+.shadow span{
+	margin-left: 15px;
+}
+
+/*Side-bar starts*/
+.side-bar{
+	width: 20% !important;
+	background-color: #2c304d!important;
+	padding: 10px;
+	position: fixed;
+    height: 100%;
+    z-index: 999;
+    transition: all 0.2s ease;
+    overflow: auto;
+   
+}
+.side-bar li{
+	font-weight: 500px;
+	font-size: 16px;
+	padding: 10px;
+}
+.side-bar li a i{
+	padding-right: 5px;
+}
+.side-bar li a i:hover{
+	color: #e76c90;
+}
+.side-bar ul li .active{
+	color: #e76c90;
+}
+.side-bar li a{
+	color: #aea9c3!important;
+}
+.side-bar li a:hover{
+	color: #aea9c3!important;
+	background-color: #2c304d!important;
+}
+/*Side-bar ends*/
+
+/*page content*/
+.container-space{
+	padding: 30px 30px 0 30px;
+}
+.content-adjust{
+	margin-left: 272px;
+	background-color: #efefef;
+	height: 590px;	
+}
+.page-header{
+	font-weight: 500px;
+}
+/*page content ends*/
+
+/*mobile responsiveness done by Mr abdulwasii . i wrote my name so that in the future this murAFUKER WILL NOIT SAY I DIDNT CONTIBUTE TO THIS PROJECT.*/
+
+@media screen and (max-width: 480px){
+	.content-adjust{
+	margin-left: 74px;
+	background-color: #efefef;
+}
+.side-bar li span{
+	font-weight: 500px;
+	font-size: 16px;
+	padding: 10px;
+	display: none;
+}
+	
+}
+
+@media screen and (min-width: 1920px){
+	.content-adjust{
+	margin-left: 155px;
+	background-color: #efefef;
+}
+} 
+@media only screen and (min-width: 768px) and (max-width: 959px){
+ 
+...
+ 
+}

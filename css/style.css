@@ -1,0 +1,485 @@
+  .container-fluid{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  .bg-grey{
+    background-color: #efefef;
+  }
+
+   /* About Section*/
+-----------------------*/
+.about-content h2 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.about-content p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #636363;
+}
+.about-content .site-btn {
+  margin-top: 40px;
+}
+.about-section{
+  margin-top: 20px;
+  margin-bottom: 20px;i
+}
+.sb-wide{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.spad {
+  padding: 100px 0;
+}
+.about-img{
+  width: 100%;
+  height: 300px;
+}
+.goals-box h4 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.border-bottom{
+  border-bottom: 2px solid #dee2e6 !important;
+}
+.border-right{
+  border-right: 2px solid #dee2e6 !important;
+  height: 200px;
+}
+p {
+    font-size: 16px;
+    color: #636363;
+    line-height: 1.8;
+}
+.red{
+  color: red;
+}
+
+.section-heading h2 {
+  position: relative;
+  display: inline-block; }
+  .section-heading h2:before, .section-heading h2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background: #dd3e3e;
+    left: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); 
+  }
+  .section-heading h2:before {
+    width: 100px;
+    bottom: -10px;
+    left: 50%; }
+  .section-heading h2:after {
+    width: 80px;
+    bottom: -20px;
+    left: 50%; }
+
+.section-heading.text-left h2:before, .section-heading.text-left h2:after {
+  left: 0;
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%); }
+
+  /*---------------------
+  Event Section
+-----------------------*/
+.event-list .el-item {
+  margin-bottom: 50px;
+}
+
+.event-list .el-item:last-child {
+  margin-bottom: 0;
+}
+
+.event-list .el-thubm {
+  height: 262px;
+}
+
+.event-list .el-header {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.event-list .el-date {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  background: #dd3e3e;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 75px;
+  font-size: 12px;
+  margin-right: 30px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.event-list .el-date h2 {
+  display: block;
+  background: #f5f5f5;
+  color: #000;
+  padding: 8px 0;
+  font-weight: 700;
+  margin-bottom: 5px;
+  border-radius: 4px 4px 0 0;
+}
+
+.event-list h3 {
+  padding-top: 5px;
+}
+
+.event-list .el-metas {
+  padding-top: 15px;
+}
+
+.event-list .el-metas .el-meta {
+  display: inline-block;
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.event-list .el-metas .el-meta i {
+  color: #dd3e3e;
+}
+
+.event-list .el-metas .el-meta:last-child {
+  margin-right: 0;
+}
+
+.event-list p {
+  margin-bottom: 25px;
+}
+
+.event-list .site-btn {
+  color: #dd3e3e;
+}
+.site-btn {
+    padding: 14px 23px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 2px;
+    background: #dd3e3e;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.site-btn.sb-line {
+    background-color: transparent;
+    border: 2px solid #dd3e3e;
+    color: #772d2d;
+    letter-spacing: 2px;
+}
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section-title span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #dd3e3e;
+    margin-bottom: 10px;
+    display: block;
+}
+.quick-contact-info {
+  background: #79423f;
+  color: #e2d1d1!important;
+  padding: 25px;
+}
+  .quick-contact-info h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .2em;
+     }
+
+  .quick-contact-info p {
+    color: #e2d1d1!important; 
+  }
+.bg-red{
+  background-color: #651414;
+  color: white!important;
+}
+.bg-red p {
+  color: white!important;
+}
+
+/*page-info-section*/
+.page-info-section {
+  height: 350px;
+  position: relative;
+}
+
+.page-info-section:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: 0.65;
+}
+
+.page-info-section .page-info-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: table;
+  z-index: 2;
+}
+
+.page-info-section .page-info-content .pi-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.page-info-section .page-info-content h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.page-info-section .site-breadcrumb {
+  padding-left: 2px;
+}
+
+.page-info-section .site-breadcrumb a,
+.page-info-section .site-breadcrumb span {
+  color: #fff;
+}
+
+.page-info-section .site-breadcrumb i {
+  color: #fff;
+  margin: 0 8px;
+}
+/*page-info-section ends*/
+
+/*about us*/
+  .aboutus-img{
+  background-image: url("../image/church.jpg");
+  background-position: fixed;
+ 
+}
+
+/*pastor starts*/
+.pastor-break{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+
+/*sermon start*/
+.sermon-title {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.sermon-title.title-left {
+  text-align: left;
+}
+
+.sermon-title span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #dd3e3e;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.sermon-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #dd3e3e;
+  text-transform: uppercase;
+}
+
+.sermon-section {
+  padding-bottom: 0;
+}
+
+.sermon-warp {
+  background: #f6f8f9;
+  position: relative;
+  height: 700px
+}
+
+.sermon-img{
+  width: 100%;
+  height: 600px;
+}
+
+.sermon-left-bg {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.sermon-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 70px;
+}
+
+.sermon-content h2 {
+  margin-bottom: 30px;
+}
+
+.sermon-info {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.sermon-info li {
+  font-size: 18px;
+  font-family: "Lora", serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.sermon-info li span {
+  color: #dd3e3e;
+}
+
+/*sermon ends*/
+
+/*---------------------
+  Sermons Page
+-----------------------*/
+.sermons-list-section .pagination-area {
+  padding-top: 10px;
+}
+
+.sermon-item {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sermon-item .si-thumb {
+  height: 220px;
+  margin-bottom: 25px;
+}
+
+.sermon-item .sermon-info {
+  margin-bottom: 10px;
+}
+
+.sermon-item .si-content {
+  padding: 30px;
+  text-align: center;
+  -webkit-box-shadow: 0 30px 40px rgba(231, 234, 236, 0.8);
+          box-shadow: 0 30px 40px rgba(231, 234, 236, 0.8);
+        height: 250px;
+}
+
+.sermon-item .si-content h4 {
+  margin-bottom: 15px;
+}
+/*---------------------
+  Sermons Page Ends
+-----------------------*/
+
+/*Pagination starts*/
+.pagination-area {
+  padding-top: 60px;
+  position: relative;
+}
+
+.pagination-area p {
+  float: right;
+  margin-bottom: 0;
+  padding-top: 9px;
+}
+
+.pageination-list {
+  list-style: none;
+  display: inline-block;
+}
+
+.pageination-list li {
+  display: inline;
+}
+
+.pageination-list a {
+  display: inline-block;
+  color: #252525;
+  border: 1px solid #ebebeb;
+  padding: 10px 14px;
+  margin-right: 3px;
+  font-size: 16px;
+  border-radius: 2px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.pageination-list a:hover {
+  color: #fff;
+  background: #dd3e3e;
+  border: 1px solid #dd3e3e;
+}
+
+/*Pagination ends*/
+
+/*Events begins*/
+ .event-img{
+  width: 100%;
+  height: 280px;
+
+
+}
+  .title-red h2{
+    color: #dd3e3e;
+  }
+/*Events ends*/
+
+/*Contact us begins*/
+.bg-white{
+  background-color: #fff!important;
+  padding: 25px;
+}
+.bg-light{
+  background-color: #f8f9fa!important;
+  padding: 85px;
+}
+.font-weight-bold{
+  font-weight: 700!important;
+}
+.form-control{
+  height: 47px;
+}
+.p-4 {
+    padding: 1.5rem!important;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+.sb-round{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+}
+.footer{
+  padding: 10px;
+}
