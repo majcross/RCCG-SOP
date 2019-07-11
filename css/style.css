@@ -8,6 +8,17 @@
   .bg-grey{
     background-color: #efefef;
   }
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: indianred;
+    background: none !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+
+  color: indianred !important;
+
+}
+ 
 
    /* About Section*/
 -----------------------*/
@@ -34,7 +45,7 @@
   padding-bottom: 10px;
 }
 .spad {
-  padding: 100px 0;
+  padding:100px 0;
 }
 .about-img{
   width: 100%;
@@ -458,7 +469,7 @@ p {
 }
 .bg-light{
   background-color: #f8f9fa!important;
-  padding: 85px;
+  padding-top: 30px;
 }
 .font-weight-bold{
   font-weight: 700!important;
@@ -483,3 +494,50 @@ p {
 .footer{
   padding: 10px;
 }
+
+/*fucking media query for responsiveness*/
+@media screen and (max-width: 480px){
+ .border-bottom{
+  border-bottom: none !important;
+}
+.border-right{
+  border-right: none !important;
+ 
+}
+.testy{
+ margin-left:-10px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+ 
+ .border-bottom{
+  border-bottom: none !important;
+}
+.border-right{
+  border-right: none !important;
+ 
+}
+ 
+}
+@media (max-width: 767.98px) {
+  .col-sm-6 .col-xs-12 .border-bottom {
+    border-bottom: none !important; }
+    
+  }
+  @media (max-width: 767.98px) {
+   .col-sm-6 .col-xs-12 .border-right{
+      width: 100%;
+      border-right: none !important;
+      } 
+    }
+    @media (max-width: 580px) {
+  .col-sm-6 .col-xs-12 .border-bottom {
+    border-bottom: none !important; }
+    
+  }
+  @media (max-width: 580px) {
+   .col-sm-6 .col-xs-12 .border-right{
+      width: 100%;
+      border-right: none !important;
+      } 
+    }
+
